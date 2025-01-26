@@ -3,8 +3,8 @@ local job_well_done = {
     name = "col-Job-Well-Done",
     set = "Mod_Sticker",
     discovered = Collectables.config.discoverAll,
-    atlas = "honk_atlas",
-    pos = { x=0, y=0 },
+    atlas = "joker_atlas",
+    pos = { x=1, y=0 },
     cost = 4,
 	config = {
         mod_conv = "col_gold_star_seal",

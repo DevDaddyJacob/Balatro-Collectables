@@ -9,7 +9,7 @@ local blue_fish = {
     key = "blue_fish",
     name = "col-blue_fish",
     atlas = "jokers_atlas",
-    pos = { x = 2, y = 1 },
+    pos = { x = 2, y = 2 },
     rarity = "Rare",
     discovered = Collectables.config.discoverAll,
     cost = itemCfg.cost or 8,

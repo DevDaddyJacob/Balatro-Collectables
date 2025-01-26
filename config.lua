@@ -27,13 +27,6 @@ return {
 
         -- Jokers [resources/jokers]
         ["Joker"] = {
-            -- Bloomer [resources/jokers/bloomer.lua]
-            ["bloomer"] = {
-                enabled = true,
-                cost = 6,
-                multIncreaseVal = 0.03,
-            },
-
             -- One Fish [resources/jokers/oneFish.lua]
             ["one_fish"] = {
                 enabled = true,

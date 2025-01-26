@@ -11,15 +11,6 @@ return {
             },
         },
         Joker = {
-            j_col_bloomer = {
-                name = "Bloomer",
-                text = {
-                    "This Joker gains {X:mult,C:white} X#1# {} Mult",
-                    "for every {C:money}$1 interest{} earned at",
-                    "the end of the round",
-                    "{C:inactive}(Currently {X:mult,C:white} X#2# {C:inactive} Mult)",
-                },
-            },
             j_col_one_fish = {
                 name = "One Fish",
                 text = {
@@ -111,7 +102,6 @@ return {
             -- [START] Item Names
             name_mod_sticker = "Sticker Cards",
             name_mod_job_well_done = "Job Well Done",
-            name_mod_bloomer = "Bloomer",
             name_mod_one_fish = "One Fish",
             name_mod_two_fish = "Two Fish",
             name_mod_red_fish = "Red Fish",
