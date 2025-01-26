@@ -4,7 +4,7 @@ local gold_star = {
     badge_colour = HEX("F7AF38"),
     discovered = Collectables.config.discoverAll,
     atlas = "seals_atlas",
-    pos = { x = 3, y = 0 },
+    pos = { x = 2, y = 0 },
     config = {
         money_amount = 5
     },
