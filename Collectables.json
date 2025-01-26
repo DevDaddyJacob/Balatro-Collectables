@@ -1,0 +1,16 @@
+{
+	"id": "DevJacob_Collectables", 
+	"name": "Collectables", 
+	"author": [ "DevDevJacob (Discord: dev_jacob)" ], 
+	"description": "A set of vanila like additions to the game", 
+	"prefix": "col", 
+	"main_file": "init.lua", 
+	"priority": 0, 
+	"badge_colour": "512888", 
+	"badge_text_colour": "D6F8FF", 
+	"display_name": "Collectables", 
+	"version": "1.0.0~1", 
+	"dependencies": [], 
+	"conflicts": [], 
+	"provides": []
+}

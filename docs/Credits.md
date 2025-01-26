@@ -1,0 +1,21 @@
+# Credits
+
+The following list of people contains all of those tho contributed to the mod in one way or another. 
+
+A massive massive thank you goes out to everyone who contributed to the mod!
+
+---
+
+- DevJacob
+    - Discord: `dev_jacob`
+    - Contributions:
+        - Bloomer Joker (Code)
+        - One Fish Joker (Idea / Inspiration, Artwork, Code)
+        - Two Fish Joker (Idea / Inspiration, Artwork, Code)
+        - Red Fish Joker (Idea / Inspiration, Artwork, Code)
+        - Blue Fish Joker (Idea / Inspiration, Artwork, Code)
+
+- kavid115
+    - Discord: `kavid115`
+    - Contributions:
+        - Bloomer Joker (Idea / Inspiration, Artwork)
