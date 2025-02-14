@@ -3,6 +3,24 @@
 The following documentation page will contain the information about each of the added modded jokers.
 
 
+## Glass House
+- Number: `1`
+- Rarity: `Uncommon`
+- Cost: `5`*
+- Compatibility:
+    - Blueprint: `Yes`
+    - Perishable: `Yes`
+- Effect: x10 Mult. Self destructs when you play the same poker hand twice in a row.
+- Settings Options:
+    - Enabled: Allows this joker to be turned on and off (Default: `true`)
+    - Cost: The base shop price of the joker (Default: `5`)
+    - X Mult Value: The amount of X mult given (Default: `10`)
+- Credits:
+    - Idea / Inspiration: **DevJacob**
+    - Artwork: **DevJacob**
+    - Code: **DevJacob**
+
+
 ## One Fish
 - Number: `2`
 - Rarity: `Rare`

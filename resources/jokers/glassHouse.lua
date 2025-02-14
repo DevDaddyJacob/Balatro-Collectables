@@ -9,7 +9,7 @@ local glass_house = {
     key = "glass_house",
     name = "col-glass_house",
     atlas = "jokers_atlas",
-    pos = { x = 1, y = 0 },
+    pos = { x = 0, y = 2 },
     rarity = "Uncommon",
     discovered = Collectables.config.discoverAll,
     cost = itemCfg.cost or 5,

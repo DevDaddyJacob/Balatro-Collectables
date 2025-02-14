@@ -9,6 +9,7 @@ A massive massive thank you goes out to everyone who contributed to the mod!
 - DevJacob
     - Discord: `dev_jacob`
     - Contributions:
+        - Glass House Joker (Idea / Inspiration, Artwork, Code)
         - One Fish Joker (Idea / Inspiration, Artwork, Code)
         - Two Fish Joker (Idea / Inspiration, Artwork, Code)
         - Red Fish Joker (Idea / Inspiration, Artwork, Code)
