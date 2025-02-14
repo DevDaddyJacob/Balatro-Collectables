@@ -11,6 +11,17 @@ return {
             },
         },
         Joker = {
+            j_col_casper = {
+                name = "Casper",
+                text = {
+                    "{C:red}-#1#{} Joker slot",
+                    "After {C:attention}#2#{} rounds,",
+                    "sell this card to",
+                    "create a random",
+                    "{C:legendary,E:1}Legendary{} Joker",
+                    "{C:inactive}(Currently {C:attention}#3#{C:inactive}/#2#)",
+                },
+            },
             j_col_glass_house = {
                 name = "Glass House",
                 text = {
@@ -117,6 +128,7 @@ return {
             name_mod_two_fish = "Two Fish",
             name_mod_red_fish = "Red Fish",
             name_mod_blue_fish = "Blue Fish",
+            name_mod_casper = "Casper",
             -- [END] Item Names
 
 

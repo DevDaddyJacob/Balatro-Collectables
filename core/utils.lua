@@ -28,12 +28,12 @@ function Collectables.utils.copyRawBooster(name)
     local rawFile, err = SMODS.load_file(("resources/boosters/%s/raw.lua"):format(name))
 
     if err then
-        print(("Error loading raw booster %s: %s"):format(name, err))
+        Collectables.print(("!!! ALERT !!! Error loading raw booster %s: %s"):format(name, err))
         return nil
     end
 
     if rawFile == nil then
-        print(("Raw booster %s is empty"):format(name))
+        Collectables.print(("!!! ALERT !!! Raw booster %s is empty"):format(name))
         return nil
     end
 
@@ -97,7 +97,7 @@ function Collectables.utils.getItemFiles(...)
                             itemFiles[resourceType] = {}
                         end
 
-                        print(("Added %s to buffer for %s (%s/%s)"):format(boosterItem, resourceType, boosterFolder, boosterItem))
+                        Collectables.print(("Added %s to buffer for %s (%s/%s)"):format(boosterItem, resourceType, boosterFolder, boosterItem))
                         itemFiles[resourceType][#itemFiles[resourceType] + 1] = ("%s/%s"):format(boosterFolder, boosterItem)
                     end
 
@@ -107,7 +107,7 @@ function Collectables.utils.getItemFiles(...)
                     itemFiles[resourceType] = {}
                 end
 
-                print(("Added %s to buffer for %s (%s/%s)"):format(item, resourceType, folder, item))
+                Collectables.print(("Added %s to buffer for %s (%s/%s)"):format(item, resourceType, folder, item))
                 itemFiles[resourceType][#itemFiles[resourceType] + 1] = ("%s/%s"):format(folder, item)
             end
         end
@@ -131,7 +131,7 @@ function Collectables.utils.loadModdedItemsToBuffer(...)
         for index, itemPath in ipairs(itemPaths) do
             local itemObj = Collectables.utils.loadModItemFromPath(itemPath)
 
-            print(itemType, index, itemPath)
+            Collectables.print(itemType, index, itemPath)
             if itemObj ~= nil then
                 if not Collectables.itemBuffer[itemType] then
                     Collectables.itemBuffer[itemType] = {}
@@ -146,7 +146,7 @@ function Collectables.utils.loadModItemFromPath(path)
     local f, err = SMODS.load_file(path)
 
     if err then
-        print(("Error loading \"%s\": %s"):format(path, err))
+        Collectables.print(("Error loading \"%s\": %s"):format(path, err))
         return nil
     end
 

@@ -14,3 +14,4 @@ A massive massive thank you goes out to everyone who contributed to the mod!
         - Two Fish Joker (Idea / Inspiration, Artwork, Code)
         - Red Fish Joker (Idea / Inspiration, Artwork, Code)
         - Blue Fish Joker (Idea / Inspiration, Artwork, Code)
+        - Casper Joker (Idea / Inspiration, Artwork, Code)

@@ -20,7 +20,7 @@ local function loadItemEditConfigs()
 end
 
 local function createEditMenuForItem(itemConfig, backButtonFunc)
-    print("[createEditMenuForItem] Creating menu with func '" .. backButtonFunc .. "' for itemConfig '" .. itemConfig.key .. "'")
+    Collectables.print("[createEditMenuForItem] Creating menu with func '" .. backButtonFunc .. "' for itemConfig '" .. itemConfig.key .. "'")
     local editNodes = {}
 
     -- Add each of the config items
@@ -135,11 +135,11 @@ local function createEditMenuForItem(itemConfig, backButtonFunc)
 end
 
 local function createEditButtonForItem(itemConfig, backButtonFunc)
-    print("[createEditButtonForItem] Creating button with func '" .. backButtonFunc .. "' for itemConfig '" .. itemConfig.key .. "'")
+    Collectables.print("[createEditButtonForItem] Creating button with func '" .. backButtonFunc .. "' for itemConfig '" .. itemConfig.key .. "'")
     local buttonFuncName = ("col_mod_item_edit_%s"):format(itemConfig.key)
 
     if G.FUNCS[buttonFuncName] == nil then
-        print("[createEditButtonForItem] Function '" .. buttonFuncName .. "' doesn't exist, creating it")
+        Collectables.print("[createEditButtonForItem] Function '" .. buttonFuncName .. "' doesn't exist, creating it")
         G.FUNCS[buttonFuncName] = function(uiElem)
             G.SETTINGS.paused = true
             G.FUNCS.overlay_menu({
@@ -159,17 +159,17 @@ local function createEditConsumableTypesMenu()
     loadItemEditConfigs()
     local consumableTypeBtns = {}
     for key, _ in pairs(Collectables.config.items["ConsumableType"]) do
-        print("[createEditConsumableTypesMenu] Checking for " .. key)
+        Collectables.print("[createEditConsumableTypesMenu] Checking for " .. key)
         if ITEM_EDIT_CONFIGS[key] then
-            print("[createEditConsumableTypesMenu] Making Button for " .. key)
+            Collectables.print("[createEditConsumableTypesMenu] Making Button for " .. key)
             consumableTypeBtns[#consumableTypeBtns + 1] = createEditButtonForItem(ITEM_EDIT_CONFIGS[key], "col_edit_consumable_types")
-            print("[createEditConsumableTypesMenu] Finished making button for " .. key)
+            Collectables.print("[createEditConsumableTypesMenu] Finished making button for " .. key)
         end
     end
 
 
     -- Sort the buttons into 3 columns
-    print("[createEditConsumableTypesMenu] Sorting buttons")
+    Collectables.print("[createEditConsumableTypesMenu] Sorting buttons")
     local columns = {
         {},
         {},
@@ -229,17 +229,17 @@ local function createEditConsumablesMenu()
     loadItemEditConfigs()
     local consumableBtns = {}
     for key, _ in pairs(Collectables.config.items["Consumable"]) do
-        print("[createEditConsumablesMenu] Checking for " .. key)
+        Collectables.print("[createEditConsumablesMenu] Checking for " .. key)
         if ITEM_EDIT_CONFIGS[key] then
-            print("[createEditConsumablesMenu] Making Button for " .. key)
+            Collectables.print("[createEditConsumablesMenu] Making Button for " .. key)
             consumableBtns[#consumableBtns + 1] = createEditButtonForItem(ITEM_EDIT_CONFIGS[key], "col_edit_consumables")
-            print("[createEditConsumablesMenu] Finished making button for " .. key)
+            Collectables.print("[createEditConsumablesMenu] Finished making button for " .. key)
         end
     end
 
 
     -- Sort the buttons into 3 columns
-    print("[createEditConsumablesMenu] Sorting buttons")
+    Collectables.print("[createEditConsumablesMenu] Sorting buttons")
     local columns = {
         {},
         {},
@@ -349,17 +349,17 @@ local function createEditJokersMenu()
     loadItemEditConfigs()
     local jokerBtns = {}
     for key, _ in pairs(Collectables.config.items["Joker"]) do
-        print("[createEditJokersMenu] Checking for " .. key)
+        Collectables.print("[createEditJokersMenu] Checking for " .. key)
         if ITEM_EDIT_CONFIGS[key] then
-            print("[createEditJokersMenu] Making Button for " .. key)
+            Collectables.print("[createEditJokersMenu] Making Button for " .. key)
             jokerBtns[#jokerBtns + 1] = createEditButtonForItem(ITEM_EDIT_CONFIGS[key], "col_edit_jokers")
-            print("[createEditJokersMenu] Finished making button for " .. key)
+            Collectables.print("[createEditJokersMenu] Finished making button for " .. key)
         end
     end
 
     
     -- Sort the buttons into rows
-    print("[createEditJokersMenu] Sorting buttons into rows")
+    Collectables.print("[createEditJokersMenu] Sorting buttons into rows")
     local rows = {}
     local currentRowNodes = {}
 
