@@ -93,7 +93,7 @@ return {
                         shadow = true
                     },
                     args = {
-                        label = localize("misc_enabled", "mod_config"),
+                        label = "",
                         decimalPlaces = 0,
                         min = 0,
                         max = 15,
