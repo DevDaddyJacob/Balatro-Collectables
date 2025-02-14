@@ -50,6 +50,13 @@ return {
                 enabled = true,
                 cost = 8,
             },
+
+            -- Glass House [resources/jokers/glassHouse.lua]
+            ["glass_house"] = {
+                enabled = true,
+                cost = 5,
+                xMult = 4,
+            },
         }
     }
 }

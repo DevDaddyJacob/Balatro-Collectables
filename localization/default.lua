@@ -11,6 +11,16 @@ return {
             },
         },
         Joker = {
+            j_col_glass_house = {
+                name = "Glass House",
+                text = {
+                    "{X:mult,C:white}X#1#{} Mult",
+                    "{C:mult}Self destructs{} when",
+                    "you play the same",
+                    "{C:money}poker hand{} twice",
+                    "in a row"
+                },
+            },
             j_col_one_fish = {
                 name = "One Fish",
                 text = {
@@ -102,6 +112,7 @@ return {
             -- [START] Item Names
             name_mod_sticker = "Sticker Cards",
             name_mod_job_well_done = "Job Well Done",
+            name_mod_glass_house = "Glass House",
             name_mod_one_fish = "One Fish",
             name_mod_two_fish = "Two Fish",
             name_mod_red_fish = "Red Fish",
@@ -116,6 +127,7 @@ return {
             misc_shop_rate = "Shop Rate",
             misc_shop_cost = "Shop Cost",
             misc_mult_increase_rate = "Mult Increase Rate",
+            misc_x_mult_value = "X Mult Value",
             -- [END] Misc Strings
 
 
