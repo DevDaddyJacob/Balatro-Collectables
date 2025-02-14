@@ -65,6 +65,13 @@ return {
                 reducedJokerSlots = 1,
                 roundsUntilActive = 5,
             },
+
+            -- Painting [resources/jokers/painting.lua]
+            ["painting"] = {
+                enabled = true,
+                cost = 5,
+                xChips = 2,
+            },
         }
     }
 }
