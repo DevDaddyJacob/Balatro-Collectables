@@ -22,6 +22,14 @@ return {
                     "{C:inactive}(Currently {C:attention}#3#{C:inactive}/#2#)",
                 },
             },
+            j_col_painting = {
+                name = "Painting",
+                text = {
+                    "First played {C:attention}face",
+                    "card gives {X:chips,C:white} X#1# {} Chips",
+                    "when scored",
+                },
+            },
             j_col_glass_house = {
                 name = "Glass House",
                 text = {
@@ -129,6 +137,7 @@ return {
             name_mod_red_fish = "Red Fish",
             name_mod_blue_fish = "Blue Fish",
             name_mod_casper = "Casper",
+            name_mod_painting = "Painting",
             -- [END] Item Names
 
 
@@ -140,6 +149,7 @@ return {
             misc_shop_cost = "Shop Cost",
             misc_mult_increase_rate = "Mult Increase Rate",
             misc_x_mult_value = "X Mult Value",
+            misc_x_chip_value = "X Chip Value",
             -- [END] Misc Strings
 
 

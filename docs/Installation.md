@@ -8,15 +8,19 @@ Before installing the mod, you will need to install Steamodded, the Balatro mod 
 Instructions on how to install Steamodded are found on their [wiki](https://github.com/Steamodded/smods/wiki#how-to-install-steamodded).
 
 > [!IMPORTANT]
-> Collectables requires a specific version of smods / steamodded, specifically version `1.0.0~ALPHA-1314d-STEAMODDED` or later.
+> Collectables requires a specific version of smods / steamodded, specifically version `1.0.0~ALPHA-1409a-STEAMODDED` or later.
 > If you are following the Steamodded installation instructions, ensure you are **not** using the "old-calc" version.
+> 
+> This specific version can be found at [this](https://github.com/Steamodded/smods/tree/a1e1f56be0548ba295812beeb4b0e816a1b7f430) point in the repo history, however if you are using the latest version from the main branch you should be fine.
 > 
 > <details>
 > <summary>Click me for a more technical explination for the specific version requirement</summary>
 > 
-> This is because the mod makes use of a recent pull request which added support for nested config values for mods (https://github.com/Steamodded/smods/pull/407).
-> 
-> This version can be found at [this](https://github.com/Steamodded/smods/tree/90f8dd572c17583d5bd84b2815041ce3716733c8) point in the repo history, however if you are using the latest version from the main branch you should be fine.
+> This is because the mod makes use of a handful of recent pull request which added support for various different things:
+> <ul>
+>   <li>Support for nested config values (Introduced by <a href="https://github.com/Steamodded/smods/pull/407">PR#407</a> in version <b>1.0.0~ALPHA-1314d-STEAMODDED</b>)</li>
+>   <li>Support for X chips (Introduced by <a href="https://github.com/Steamodded/smods/commit/8bbc6dd89a5e8018b1f18ccef6ac6e549a4d7c10">commit 8bbc6dd</a> in version <b>1.0.0~ALPHA-1409a-STEAMODDED</b>)</li>
+> </ul>
 > 
 > </details>
 
