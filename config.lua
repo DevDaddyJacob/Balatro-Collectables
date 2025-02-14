@@ -27,6 +27,13 @@ return {
 
         -- Jokers [resources/jokers]
         ["Joker"] = {
+            -- Glass House [resources/jokers/glassHouse.lua]
+            ["glass_house"] = {
+                enabled = true,
+                cost = 5,
+                xMult = 4,
+            },
+
             -- One Fish [resources/jokers/oneFish.lua]
             ["one_fish"] = {
                 enabled = true,
@@ -51,11 +58,12 @@ return {
                 cost = 8,
             },
 
-            -- Glass House [resources/jokers/glassHouse.lua]
-            ["glass_house"] = {
+            -- Casper [resources/jokers/casper.lua]
+            ["casper"] = {
                 enabled = true,
-                cost = 5,
-                xMult = 4,
+                cost = 12,
+                reducedJokerSlots = 1,
+                roundsUntilActive = 5,
             },
         }
     }

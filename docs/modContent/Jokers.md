@@ -87,3 +87,20 @@ The following documentation page will contain the information about each of the 
     - Idea / Inspiration: **DevJacob**
     - Artwork: **DevJacob**
     - Code: **DevJacob**
+
+
+## Casper
+- Number: `6`
+- Rarity: `Rare`
+- Cost: `12`*
+- Compatibility:
+    - Blueprint: `No`
+    - Perishable: `No`
+- Effect: -1 Joker slot. After 5 rounds sell this card to create a random Legendary Joker
+- Settings Options:
+    - Enabled: Allows this joker to be turned on and off (Default: `true`)
+    - Cost: The base shop price of the joker (Default: `12`)
+- Credits:
+    - Idea / Inspiration: **DevJacob**
+    - Artwork: **DevJacob**
+    - Code: **DevJacob**

@@ -4,18 +4,21 @@ Collectables.modPath = SMODS.current_mod.path
 Collectables.config = SMODS.current_mod.config
 Collectables.loadState = copy_table(Collectables.config)
 Collectables.defaultConfig = SMODS.load_file("config.lua")()
+Collectables.print = function(msg, ...)
+    print(("[COLLECTABLES] %s"):format(msg or ""), ...)
+end
 
 local function load_module(_module, path)
-    print(("Loading %s module (%s)"):format(_module, path))
+    Collectables.print(("Loading %s module (%s)"):format(_module, path))
     local f, err = SMODS.load_file(path)
 
     if err then
-        print(("Error loading module %s (%s): %s"):format(_module, path, err))
+        Collectables.print(("Error loading module %s (%s): %s"):format(_module, path, err))
         return
     end
 
     if f == nil then
-        print(("Module file %s is empty"):format(file))
+        Collectables.print(("Module file %s is empty"):format(file))
         return
     end
     
