@@ -104,3 +104,20 @@ The following documentation page will contain the information about each of the 
     - Idea / Inspiration: **DevJacob**
     - Artwork: **DevJacob**
     - Code: **DevJacob**
+
+
+## Painting
+- Number: `7`
+- Rarity: `Uncommon`
+- Cost: `5`*
+- Compatibility:
+    - Blueprint: `Yes`
+    - Perishable: `Yes`
+- Effect: First played face card gives x2 Chips when scored
+- Settings Options:
+    - Enabled: Allows this joker to be turned on and off (Default: `true`)
+    - Cost: The base shop price of the joker (Default: `5`)
+- Credits:
+    - Idea / Inspiration: **DevJacob**
+    - Artwork: **DevJacob**
+    - Code: **DevJacob**

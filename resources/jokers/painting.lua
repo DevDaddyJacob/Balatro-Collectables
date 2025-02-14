@@ -9,7 +9,7 @@ local painting = {
     key = "painting",
     name = "col-painting",
     atlas = "jokers_atlas",
-    pos = { x = 1, y = 0 },
+    pos = { x = 2, y = 2 },
     rarity = "Common",
     discovered = Collectables.config.discoverAll,
     cost = itemCfg.cost or 5,
