@@ -9,7 +9,7 @@
 	"badge_colour": "512888", 
 	"badge_text_colour": "D6F8FF", 
 	"display_name": "Collectables", 
-	"version": "1.0.0~1", 
+	"version": "1.0.0-b4", 
 	"dependencies": [], 
 	"conflicts": [], 
 	"provides": []
