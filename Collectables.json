@@ -10,9 +10,7 @@
 	"badge_text_colour": "D6F8FF", 
 	"display_name": "Collectables", 
 	"version": "1.0.0~1", 
-	"dependencies": [
-		"Steamodded>=1.0.0~ALPHA-1409a"
-	], 
+	"dependencies": [], 
 	"conflicts": [], 
 	"provides": []
 }

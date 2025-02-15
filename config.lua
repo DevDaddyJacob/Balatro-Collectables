@@ -72,6 +72,12 @@ return {
                 cost = 5,
                 xChips = 2,
             },
+
+            -- Confused Blueprint [resources/jokers/confusedBlueprint.lua]
+            ["confused_blueprint"] = {
+                enabled = true,
+                cost = 8,
+            },
         }
     }
 }
