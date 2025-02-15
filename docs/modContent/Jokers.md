@@ -108,7 +108,7 @@ The following documentation page will contain the information about each of the 
 
 ## Painting
 - Number: `7`
-- Rarity: `Uncommon`
+- Rarity: `Common`
 - Cost: `5`*
 - Compatibility:
     - Blueprint: `Yes`
@@ -117,6 +117,24 @@ The following documentation page will contain the information about each of the 
 - Settings Options:
     - Enabled: Allows this joker to be turned on and off (Default: `true`)
     - Cost: The base shop price of the joker (Default: `5`)
+- Credits:
+    - Idea / Inspiration: **DevJacob**
+    - Artwork: **DevJacob**
+    - Code: **DevJacob**
+
+
+## Confused Blueprint
+- Number: `8`
+- Rarity: `Rare`
+- Cost: `8`*
+- Compatibility:
+    - Blueprint: `No`
+    - Perishable: `Yes`
+    - Eternal: `Yes`
+- Effect: Copies the ability of the Jokers to the left and to the right.
+- Settings Options:
+    - Enabled: Allows this joker to be turned on and off (Default: `true`)
+    - Cost: The base shop price of the joker (Default: `8`)
 - Credits:
     - Idea / Inspiration: **DevJacob**
     - Artwork: **DevJacob**
