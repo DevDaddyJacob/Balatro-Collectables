@@ -115,6 +115,27 @@ return {
                     "{C:attention}#2#{C:col_sticker} Sticker{} cards",
                 },
             },
+            p_col_collectable_pack_normal = {
+                name = "Collectable Pack",
+                text = {
+                    "Choose {C:attention}#1#{} of up to",
+                    "{C:attention}#2#{C:collectables} Collectable{} Jokers",
+                },
+            },
+            p_col_collectable_pack_jumbo = {
+                name = "Jumbo Collectable Pack",
+                text = {
+                    "Choose {C:attention}#1#{} of up to",
+                    "{C:attention}#2#{C:collectables} Collectable{} Jokers",
+                },
+            },
+            p_col_collectable_pack_mega = {
+                name = "Mega Collectable Pack",
+                text = {
+                    "Choose {C:attention}#1#{} of up to",
+                    "{C:attention}#2#{C:collectables} Collectable{} Jokers",
+                },
+            },
             col_gold_star_seal = {
                 name = "Gold Star",
                 text = {
@@ -131,6 +152,7 @@ return {
         },
         dictionary = {
             k_col_sticker_pack = "Sticker Pack",
+            k_col_collectable_pack = "Collectable Pack",
             
             k_mod_sticker = "Sticker",
             b_mod_sticker_cards = "Sticker Cards",

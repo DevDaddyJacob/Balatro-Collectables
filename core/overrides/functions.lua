@@ -20,6 +20,7 @@ function loc_colour(_c, _default)
 		_Funcs.loc_colour()
 	end
 
+	G.ARGS.LOC_COLOURS.collectables = HEX("512888")
 	G.ARGS.LOC_COLOURS.col_sticker = G.C.SET.Mod_Sticker
 	G.ARGS.LOC_COLOURS.heart = G.C.SUITS.Hearts
 	G.ARGS.LOC_COLOURS.diamond = G.C.SUITS.Diamonds
