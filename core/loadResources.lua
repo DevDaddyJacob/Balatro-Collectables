@@ -23,9 +23,48 @@ local function registerModdedResources()
             end
             SMODS[_type](resource.data)
 
+            
+            if _type == "Joker" then 
+                Collectables.pools.Jokers = Collectables.pools.Jokers or {}
+                Collectables.pools.Jokers[resource.data.rarity] = Collectables.pools.Jokers[resource.data.rarity] or {}
+                
+                local _rarityPool = Collectables.pools.Jokers[resource.data.rarity]
+                _rarityPool[#_rarityPool + 1] = resource.data.key
+            end
+
+
             ::continue::
         end
     end
+    Collectables.print("")
+    Collectables.print("==============================")
+    
+
+    Collectables.print("")
+    Collectables.print("==============================")
+    Collectables.print("")
+    
+    Collectables.print("Collectable Pools:")
+    for key, pool in pairs(Collectables.pools) do
+        Collectables.print("")
+        Collectables.print(("\t%s Pool"):format(key))
+        
+        if key == "Jokers" then
+            for rarity, rarityPool in pairs(pool) do
+                Collectables.print(("\t\tx %d %s Rarity Jokers"):format(#rarityPool, rarity))
+                for i = 1, #rarityPool do
+                    Collectables.print(("\t\t\t- %s"):format(rarityPool[i]))
+                end
+            end
+        else
+            for i = 1, #pool do
+                Collectables.print(("\t\t\t- %s"):format(pool[i]))
+            end
+        end
+    
+    end
+    
+    Collectables.print("")
     Collectables.print("==============================")
 end
 

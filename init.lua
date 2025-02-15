@@ -1,5 +1,6 @@
 -- Create some global things
 Collectables = {}
+Collectables.pools = {}
 Collectables.modPath = SMODS.current_mod.path
 Collectables.config = SMODS.current_mod.config
 Collectables.loadState = copy_table(Collectables.config)
