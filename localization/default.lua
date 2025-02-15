@@ -30,6 +30,14 @@ return {
                     "when scored",
                 },
             },
+            j_col_confused_blueprint = {
+                name = "Confused Blueprint",
+                text = {
+                    "Copies the ability of",
+                    "{C:attention}Jokers{} to the left",
+                    "and to the right"
+                },
+            },
             j_col_glass_house = {
                 name = "Glass House",
                 text = {
@@ -126,6 +134,11 @@ return {
             
             k_mod_sticker = "Sticker",
             b_mod_sticker_cards = "Sticker Cards",
+
+            k_right_compatible = "right compatible",
+            k_right_incompatible = "right incompatible",
+            k_left_compatible = "left compatible",
+            k_left_incompatible = "left incompatible",
         },
         mod_config = {
             -- [START] Item Names
@@ -138,6 +151,7 @@ return {
             name_mod_blue_fish = "Blue Fish",
             name_mod_casper = "Casper",
             name_mod_painting = "Painting",
+            name_mod_confused_blueprint = "Confused Blueprint",
             -- [END] Item Names
 
 
