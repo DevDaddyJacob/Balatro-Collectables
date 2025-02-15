@@ -127,48 +127,31 @@ local confused_blueprint = {
     calculate = function(self, card, context)
         local leftJoker, rightJoker = findConfusedBlueprintCopyJokers(card)
 
-        
-		if leftJoker and leftJoker ~= card then
-			context.blueprint = (context.blueprint and (context.blueprint + 1)) or 1
-			context.blueprint_card = context.blueprint_card or card
+		if 
+            (leftJoker and leftJoker ~= card)
+            or (rightJoker and rightJoker ~= card)
+        then
+            context.blueprint = (context.blueprint and (context.blueprint + 1)) or 1
+            context.blueprint_card = context.blueprint_card or card
 
-			if context.blueprint > #G.jokers.cards + 1 then
-				return
-			end
-
-			local leftJoker_ret, trig = leftJoker:calculate_joker(context)
-			if leftJoker_ret or trig then
-				if not leftJoker_ret then
-					leftJoker_ret = {}
-				end
-
+			local leftJoker_ret, leftJoker_trig = leftJoker ~= nil and leftJoker:calculate_joker(context) or nil
+			local rightJoker_ret, rightJoker_trig = rightJoker ~= nil and rightJoker:calculate_joker(context) or nil
+            
+            if leftJoker_ret or leftJoker_trig then
+				if not leftJoker_ret then leftJoker_ret = {} end
 				leftJoker_ret.card = context.blueprint_card or card
 				leftJoker_ret.colour = G.C.BLUE
-				
                 SMODS.calculate_effect(leftJoker_ret, card)
 			end
-		end
-        
-        
-		if rightJoker and rightJoker ~= card then
-			context.blueprint = (context.blueprint and (context.blueprint + 1)) or 1
-			context.blueprint_card = context.blueprint_card or card
 
-			if context.blueprint > #G.jokers.cards + 1 then
-				return
-			end
-
-			local rightJoker_ret, trig = rightJoker:calculate_joker(context)
-			if rightJoker_ret or trig then
-				if not rightJoker_ret then
-					rightJoker_ret = {}
-				end
+            if rightJoker_ret or rightJoker_trig then
+				if not rightJoker_ret then rightJoker_ret = {} end
 				rightJoker_ret.card = context.blueprint_card or card
 				rightJoker_ret.colour = G.C.BLUE
-                
                 SMODS.calculate_effect(rightJoker_ret, card)
 			end
-		end
+
+        end
     end,
 }
 
