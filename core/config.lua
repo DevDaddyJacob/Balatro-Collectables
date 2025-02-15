@@ -348,7 +348,14 @@ end
 local function createEditJokersMenu()
     loadItemEditConfigs()
     local jokerBtns = {}
-    for key, _ in pairs(Collectables.config.items["Joker"]) do
+
+    -- local jokerConfigs = {}
+    local jokerConfigKeys = {}
+    for k in pairs(Collectables.config.items["Joker"]) do jokerConfigKeys[#jokerConfigKeys + 1] = k end
+    table.sort(jokerConfigKeys)
+    -- for _, k in ipairs(jokerConfigKeys) do jokerConfigs[k] = Collectables.config.items["Joker"][k] end
+
+    for _, key in ipairs(jokerConfigKeys) do
         Collectables.print("[createEditJokersMenu] Checking for " .. key)
         if ITEM_EDIT_CONFIGS[key] then
             Collectables.print("[createEditJokersMenu] Making Button for " .. key)
