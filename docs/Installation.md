@@ -35,7 +35,7 @@ If you are not as comfortable with using the command line or don't know what Git
 <details>
 <summary><b>Download Using Direct Download</b></summary>
 
-1. [Download the latest source code](https://github.com/JayPaulinCodes/Balatro-Collectables/archive/refs/heads/main.zip) from the main branch as a zip file.
+1. [Download the latest source code](https://github.com/DevDaddyJacob/Balatro-Collectables/archive/refs/heads/main.zip) from the main branch as a zip file.
 
 2. In your Balatro mods folder (see table below for mods folder locations) you made when installing Steamodded, extract the mod's source code to a new folder named `Collectables`, the folder should look something similar to [this image](https://i.imgur.com/GwXfqYr.png).
 
@@ -69,7 +69,7 @@ If you are not as comfortable with using the command line or don't know what Git
 
 3. Clone the repository using the following command:
 ```shell
-git clone https://github.com/JayPaulinCodes/Balatro-Collectables.git Collectables
+git clone https://github.com/DevDaddyJacob/Balatro-Collectables.git Collectables
 ```
 
 </details>
