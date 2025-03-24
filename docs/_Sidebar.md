@@ -1,8 +1,8 @@
-* [Home](https://github.com/JayPaulinCodes/Balatro-Collectables/wiki)
-* [Installation](https://github.com/JayPaulinCodes/Balatro-Collectables/wiki/Installation)
-* [Credits](https://github.com/JayPaulinCodes/Balatro-Collectables/wiki/Credits)
+* [Home](https://github.com/DevDaddyJacob/Balatro-Collectables/wiki)
+* [Installation](https://github.com/DevDaddyJacob/Balatro-Collectables/wiki/Installation)
+* [Credits](https://github.com/DevDaddyJacob/Balatro-Collectables/wiki/Credits)
 * Mod Content
-    * [Jokers](https://github.com/JayPaulinCodes/Balatro-Collectables/wiki/Jokers)
+    * [Jokers](https://github.com/DevDaddyJacob/Balatro-Collectables/wiki/Jokers)
 
 ***
 
