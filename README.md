@@ -2,7 +2,7 @@
 <h1>Collectables - Balatro Mod</h1>
 
 <div>
-  <img alt="Total Contributors" src="https://img.shields.io/github/contributors/JayPaulinCodes/Balatro-Collectables?label=Total%20Contributors">
+  <img alt="Total Contributors" src="https://img.shields.io/github/contributors/DevDaddyJacob/Balatro-Collectables?label=Total%20Contributors">
 </div>
 
 <p>Collectables is a Balatro mod which aims to add vanila-like features & items to the game, enhancing the experience.</p>
@@ -20,19 +20,19 @@
   </tr>
   <tr>
     <td align="center">
-      <img alt="Latest Version" src="https://img.shields.io/github/v/release/JayPaulinCodes/Balatro-Collectables?style=plastic&label=Latest%20Version">
+      <img alt="Latest Version" src="https://img.shields.io/github/v/release/DevDaddyJacob/Balatro-Collectables?style=plastic&label=Latest%20Version">
       <br>
-      <img alt="Released Ago" src="https://img.shields.io/github/release-date/JayPaulinCodes/Balatro-Collectables?label=Released">
+      <img alt="Released Ago" src="https://img.shields.io/github/release-date/DevDaddyJacob/Balatro-Collectables?label=Released">
     </td>
     <td align="center">
-      <img alt="Latest Version" src="https://img.shields.io/github/v/release/JayPaulinCodes/Balatro-Collectables?include_prereleases&style=plastic&label=Latest%20Version">
+      <img alt="Latest Version" src="https://img.shields.io/github/v/release/DevDaddyJacob/Balatro-Collectables?include_prereleases&style=plastic&label=Latest%20Version">
       <br>
-      <img alt="Released Ago" src="https://img.shields.io/github/release-date-pre/JayPaulinCodes/Balatro-Collectables?label=Released">
+      <img alt="Released Ago" src="https://img.shields.io/github/release-date-pre/DevDaddyJacob/Balatro-Collectables?label=Released">
     </td>
   </tr>
 </table>
 
-<img src="https://img.shields.io/github/milestones/progress-percent/JayPaulinCodes/Balatro-Collectables/1">
+<img src="https://img.shields.io/github/milestones/progress-percent/DevDaddyJacob/Balatro-Collectables/1">
 
 Collectables uses 2 release channels, full and beta.
 
@@ -47,10 +47,10 @@ Beta versions are released more frequently and are unstable.
 <h2 align="center">Mod Information</h2>
 
 Mod information can be found in the repository's wiki or the [docs](./docs) folder, currently we have the following information pages:
-* [Home](https://github.com/JayPaulinCodes/Balatro-Collectables/wiki) (Alt: [./docs/Home.md](./docs/Home.md))
-* [Installation](https://github.com/JayPaulinCodes/Balatro-Collectables/wiki/Installation) (Alt: [./docs/Installation.md](./docs/Installation.md))
-* [Credits](https://github.com/JayPaulinCodes/Balatro-Collectables/wiki/Credits) (Alt: [./docs/Credits.md](./docs/Credits.md))
+* [Home](https://github.com/DevDaddyJacob/Balatro-Collectables/wiki) (Alt: [./docs/Home.md](./docs/Home.md))
+* [Installation](https://github.com/DevDaddyJacob/Balatro-Collectables/wiki/Installation) (Alt: [./docs/Installation.md](./docs/Installation.md))
+* [Credits](https://github.com/DevDaddyJacob/Balatro-Collectables/wiki/Credits) (Alt: [./docs/Credits.md](./docs/Credits.md))
 * Mod Content
-    * [Jokers](https://github.com/JayPaulinCodes/Balatro-Collectables/wiki/Jokers) (Alt: [./docs/modContent/Jokers.md](./docs/modContent/Jokers.md))
+    * [Jokers](https://github.com/DevDaddyJacob/Balatro-Collectables/wiki/Jokers) (Alt: [./docs/modContent/Jokers.md](./docs/modContent/Jokers.md))
 
 </div>
